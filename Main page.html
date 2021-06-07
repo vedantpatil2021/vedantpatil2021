@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="Main Page.css">
+    <link rel="stylesheet" href="Main Page.css">
+    <title>V-Energize</title>
+</head>
+<body>
+    <h2 class="heading ">Presentation</h2>
+    <div class="grid"> 
+        <div class="container">
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3 col-md-6"></div>
+                    <div class="tedx_container">
+                        <a href="Gif/Media1resize.gif">
+                        <img src="Gif/Media1resize.gif" alt="Divyanshu" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-3 col-md-6"></div>
+                    <div class="tedx_container">
+                        <a href="Gif/Media2resize.gif" >
+                        <img src="Gif/Media2resize.gif" alt="Tanmay" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1 class="contributors">Contributors</h1>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" >
+              <img src="Images/Ambika Sanap.jpeg.png" alt="Ambika Sanap">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Vedant Patil-png.png" alt="Vedant Patil">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Aditya Waghmare-png.png" alt="Aditya Waghmare">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Atharva Malvade-png.png" alt="Atharva Malvade">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Tanmay Yeware-png.png" alt="Tanmay Yeware">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Divyanshu Jain-png.png" alt="Divyanshu jain ">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Kunal Waghmare-png.png" alt="kunal Waghmare">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Devika Eppakayala-png.png" alt="Devika Eppakayala">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Sakshi Talele-png.png" alt="Sakshi Talele">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Satyam Mishra-png.png" alt="Satyam Mishra">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Vini Teckwani-png.png" alt="Vini Teckwani">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Akansha Amdekar-png.png" alt="Akansha Amdekar">
+          </div>
+          <div class="swiper-slide" >
+              <img src="Images/Pranjal Kashid-png.png" alt="Pranjal Kashid">
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    <script type="text/javascript" src="swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: 
+            {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+    <p class="text">(Swipe left for more contributors)</p>
+</body>
+</html>
