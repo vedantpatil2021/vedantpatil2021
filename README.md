@@ -26,7 +26,15 @@
     ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
     ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
     ![Chakra-UI](https://img.shields.io/badge/Chakra--UI-319795?style=flat&logo=chakra-ui&logoColor=white)
+    
+    
+    
+<p><strong>3rd year BCA student. During day, Assisting
+                <br>my father at his shop & Coder at night.
+                <br><br> Vibing to : 🎧 </strong></p>
 
+ [![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul)
+ <br>
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
